@@ -1,5 +1,5 @@
 ---
-id: overview
+id: intro
 title: 발간사
 sidebar_position: 1
 ---
