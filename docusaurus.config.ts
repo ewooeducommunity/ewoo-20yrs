@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: '도전화 변화의 20년',
-  tagline: '이교육공동체',
+  tagline: '이우교육공동체',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -43,8 +43,8 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -54,8 +54,8 @@ const config: Config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -75,9 +75,9 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My Site',
+      title: '이우교육공동체',
       logo: {
-        alt: 'My Site Logo',
+        alt: '이우교육공동체',
         src: 'img/logo.svg',
       },
       items: [
@@ -85,14 +85,13 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: '20년사',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/ewooeducommunity/ewoo-20yrs',
-          label: 'GitHub',
-          position: 'right',
-        },
+//        {
+//          href: 'https://github.com/ewooeducommunity/ewoo-20yrs',
+//          label: 'GitHub',
+//          position: 'right',
+//        },
       ],
     },
     footer: {
@@ -102,7 +101,7 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: '20년사 시작',
               to: '/docs/intro',
             },
           ],
@@ -111,31 +110,14 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: '이우학교 홈페이지',
+              href: 'https://ewoo-mh.goesn.kr/ewoo-mh/main.do',
             },
           ],
         },
         {
           title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
+          items: [],
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} 이우교육공동체 Built with Docusaurus.`,
