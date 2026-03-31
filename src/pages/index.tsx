@@ -36,6 +36,9 @@ export default function Home(): ReactNode {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
+        <section style={{textAlign: 'center', padding: '2rem 0'}}>
+          <img src="/img/ewoo_wheel.jpg" alt="이우 휠" style={{maxWidth: '50%', height: 'auto', maskImage: 'radial-gradient(ellipse 90% 90% at center, black 60%, transparent 100%)', WebkitMaskImage: 'radial-gradient(ellipse 90% 90% at center, black 60%, transparent 100%)'}} />
+        </section>
       </main>
     </Layout>
   );
